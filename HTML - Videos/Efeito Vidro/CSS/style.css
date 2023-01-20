@@ -1,0 +1,40 @@
+body{
+    font-family: 'Montserrat', sans-serif;
+
+    display: grid;
+    place-items: center;
+
+    height: 100vh;
+
+    background-image: url("./Image/Wallpaper\ de\ montanhas.jpg");
+    background-repeat: no-repeat;
+    background-size:100%;
+}
+
+.tiktok{
+    width: 10vw;
+}
+
+.glass{
+    width: 50rem;
+    padding: 5rem 2rem;
+
+    text-align: center;
+
+    backdrop-filter: blur(12px);
+    background-color: rgba(255, 255, 255, 0.05);
+    border-radius: 1.6rem;
+    color: #FFF;
+
+    box-shadow: 5px 5px 25px 0 rgba(0, 0, 0, 0.1);
+}
+
+.glass h1{
+    font-size: 4.2rem;
+    margin-bottom: 1rem;
+}
+
+.glass h3{
+    font-size: 1.6rem;
+    font-weight: 400;
+}
